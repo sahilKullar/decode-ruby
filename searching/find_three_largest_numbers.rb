@@ -31,4 +31,3 @@ def shift_and_update(array, idx, num)
 end
 
 p find_three_largest_numbers([141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7])
-p find_three_largest_numbers([141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7])
