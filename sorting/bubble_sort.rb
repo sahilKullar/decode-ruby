@@ -6,7 +6,7 @@ def bubble_sort(array)
   counter = 0
   until swapped
     swapped = true
-    (array.length - 1 - counter).times do |i|
+    (0...array.length - 1 - counter).each do |i|
       if array[i] > array[i + 1]
         array[i], array[i + 1] = array[i + 1], array[i]
         swapped = false

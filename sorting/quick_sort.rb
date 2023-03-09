@@ -13,7 +13,7 @@ def quick_sort_helper(array, start_idx, end_idx)
   left_idx = start_idx + 1
   right_idx = end_idx
 
-  while right_idx >= left_idx
+  while right_idx >= left_idx # left_idx <= right_idx
     if array[left_idx] > array[pivot_idx] && array[right_idx] < array[pivot_idx]
       array[left_idx], array[right_idx] = array[right_idx], array[left_idx]
     end

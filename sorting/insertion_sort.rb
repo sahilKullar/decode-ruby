@@ -2,7 +2,7 @@
 # space - O(1)
 
 def insertion_sort(array)
-  (array.length).times do |i|
+  (1...array.length).each do |i|
     j = i
     while j > 0 && array[j] < array[j - 1]
       array[j], array[j - 1] = array[j - 1], array[j]
