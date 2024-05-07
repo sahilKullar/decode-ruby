@@ -1,0 +1,9 @@
+rails db:migrate:status
+
+bin/rails generate scaffold Product \
+         title:string description:text image_url:string price:decimal
+
+rails db:create
+rails db:migrate
+rails server
+rails test
