@@ -8,3 +8,8 @@ rails db:migrate
 rails server
 rails test
 rails db:seed
+rails test:models
+rails db:test:prepare #Each test method gets a freshly initialized table in the test database, loaded from the fixtures we provide. This is automatically done by the bin/rails test command but can be done separately via bin/rails db:test:prepare
+bin/rails generate controller Store index
+rails test:controllers
+bin/rails dev:cache
