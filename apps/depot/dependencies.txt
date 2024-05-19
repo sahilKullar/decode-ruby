@@ -16,3 +16,4 @@ bin/rails dev:cache
 rails generate scaffold Cart
 rails generate scaffold LineItem product:references cart:belongs_to
 rails test test/controllers/line_items_controller_test.rb
+rails generate migration add_quantity_to_line_items quantity:integer
