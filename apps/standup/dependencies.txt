@@ -3,3 +3,4 @@ rails db:create
 rails generate rspec:install
 bin/bundle add tailwindcss-rails
 bin/rails tailwindcss:install
+rails generate controller Activity mine feed
