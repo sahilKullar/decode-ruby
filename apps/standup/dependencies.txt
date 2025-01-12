@@ -1,0 +1,5 @@
+rails new standup_app -T --database=postgresql
+rails db:create
+rails generate rspec:install
+bin/bundle add tailwindcss-rails
+bin/rails tailwindcss:install
