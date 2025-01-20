@@ -3,4 +3,6 @@ rails db:create
 rails generate rspec:install
 bin/bundle add tailwindcss-rails
 bin/rails tailwindcss:install
+bin/rails tailwindcss:watch
 rails generate controller Activity mine feed
+bin/importmap pin stimulus-dropdown

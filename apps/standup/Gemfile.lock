@@ -114,6 +114,7 @@ GEM
     globalid (1.2.1)
       activesupport (>= 6.1)
     gravatar_image_tag (1.2.0)
+    htmlbeautifier (1.4.3)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     immutable-struct (2.4.1)
@@ -319,6 +320,7 @@ DEPENDENCIES
   factory_bot_rails
   foreman
   gravatar_image_tag
+  htmlbeautifier
   immutable-struct
   importmap-rails
   jbuilder
