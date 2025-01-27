@@ -6,3 +6,10 @@ bin/rails tailwindcss:install
 bin/rails tailwindcss:watch
 rails generate controller Activity mine feed
 bin/importmap pin stimulus-dropdown
+rails g migration enable_extension_for_uuid
+rails g model User name:string
+rails g migration AddTimeZoneToUsers time_zone:string
+rails generate devise:install
+rails generate devise User
+rails db:migrate
+rails generate devise:views
