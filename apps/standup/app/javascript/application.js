@@ -3,6 +3,7 @@ import '@hotwired/turbo-rails';
 import 'controllers';
 import { Application } from '@hotwired/stimulus';
 import Dropdown from 'stimulus-dropdown';
+import 'lib/flash';
 
 const application = Application.start();
 application.register('dropdown', Dropdown);
